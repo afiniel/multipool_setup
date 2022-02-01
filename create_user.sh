@@ -9,7 +9,7 @@ cd ~/multipool/install
 clear
 
 # Welcome
-message_box "Ultimate Crypto-Server Setup Installer" \
+message_box "Afiniel Yiimp installer" \
 "Hello and thanks for using the Ultimate Crypto-Server Setup Installer!
 \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
 \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."

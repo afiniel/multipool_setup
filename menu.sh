@@ -1,33 +1,25 @@
 #####################################################
 # Source code https://github.com/end222/pacmenu
-# Updated by cryptopool.builders for crypto use...
+# Updated by Afiniel for crypto use...
 #####################################################
 
 source /etc/functions.sh
 
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Ultimate Crypto-Server Setup Installer v2.55" --menu "Choose one" -1 60 16 \
-' ' "- YiiMP Server Install -" \
-1 "YiiMP Single Server" \
-2 "YiiMP Multi Server" \
-' ' "- YiiMP Upgrade -" \
-3 "YiiMP Stratum Upgrade" \
-' '  "- NOMP Server Install -" \
-4 "NOMP Server" \
-' ' "- MPOS Server Install -" \
-5 "MPOS Server - Coming Soon" \
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Afiniel Yiimp installer" --menu "Choose one" -1 60 16 \
+' ' "- YiiMP installer -" \
+1 "YiiMP" \
+' ' "- Upgrade Yiimp -" \
+2 "YiiMP Stratum Upgrade" \
 ' '  "- CryptoNote Server Install -" \
-6 "CryptoNote-Nodejs Server - Coming Soon" \
-' ' "- Faucet Server Install -" \
-7 "Faucet Script - Coming Soon" \
 ' ' "- Daemon Wallet Builder -" \
-8 "Daemonbuilder" \
-9 Exit)
+3 "Daemonbuilder" \
+4 Exit)
 if [ $RESULT = ]
 then
 bash $(basename $0) && exit;
 fi
 
-
+# Single install
 if [ $RESULT = 1 ]
 then
 clear;
@@ -39,52 +31,17 @@ if [ $RESULT = 2 ]
 then
 clear;
 cd $HOME/multipool/install
-source bootstrap_multi.sh;
+source bootstrap_upgrade.sh;
 fi
 
 if [ $RESULT = 3 ]
 then
 clear;
 cd $HOME/multipool/install
-source bootstrap_upgrade.sh;
-fi
-
-if [ $RESULT = 4 ]
-then
-clear;
-cd $HOME/multipool/install
-source bootstrap_nomp.sh;
-fi
-
-if [ $RESULT = 5 ]
-then
-clear;
-cd $HOME/multipool/install
-exit 0;
-fi
-
-if [ $RESULT = 6 ]
-then
-clear;
-cd $HOME/multipool/install
-exit 0;
-fi
-
-if [ $RESULT = 7 ]
-then
-clear;
-cd $HOME/multipool/install
-exit 0;
-fi
-
-if [ $RESULT = 8 ]
-then
-clear;
-cd $HOME/multipool/install
 source bootstrap_coin.sh;
 fi
 
-if [ $RESULT = 9 ]
+if [ $RESULT = 4 ]
 then
 clear;
 exit;
