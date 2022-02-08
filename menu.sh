@@ -10,7 +10,6 @@ RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Afiniel Yiimp inst
 1 "YiiMP" \
 ' ' "- Upgrade Yiimp -" \
 2 "YiiMP Stratum Upgrade" \
-' '  "- CryptoNote Server Install -" \
 ' ' "- Daemon Wallet Builder -" \
 3 "Daemonbuilder" \
 4 Exit)
