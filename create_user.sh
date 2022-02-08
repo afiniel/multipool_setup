@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #####################################################
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox
-# Updated by cryptopool.builders for crypto use...
+# Updated by Afiniel for crypto use...
 #####################################################
 
 source /etc/functions.sh
@@ -10,11 +10,11 @@ clear
 
 # Welcome
 message_box "Afiniel Yiimp installer" \
-"Hello and thanks for using the Ultimate Crypto-Server Setup Installer!
+"Hello and thanks for using the Afiniel YiiMP Server installer!
 \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
 \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
 # Root warning message box
-message_box "Ultimate Crypto-Server Setup Installer" \
+message_box "Afiniel YiiMP Server installer" \
 "Naughty, naughty! You are trying to install this as the root user!
 \n\nRunning any application as root is a serious security risk.
 \n\nTherefore we make you create a user account :)"

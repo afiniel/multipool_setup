@@ -3,12 +3,12 @@
 
 #########################################################
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox
-# Updated by cryptopool.builders for crypto use...
+# Updated by Afiniel for crypto use...
 # This script is intended to be ran from the multipool installer
 #########################################################
 
 if [ -z "${TAG}" ]; then
-	TAG=v1.09
+	TAG=v1.10
 fi
 
 # Clone the MultiPool repository if it doesn't exist.

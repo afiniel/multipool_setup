@@ -3,7 +3,7 @@
 #####################################################
 # This is the entry point for configuring the system.
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox
-# Updated by cryptopool.builders for crypto use...
+# Updated by Afiniel for crypto use...
 #####################################################
 
 # Recall the last settings used if we're running this a second time.
@@ -58,8 +58,8 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
   # Are we running as root?
   if [[ $EUID -ne 0 ]]; then
     # Welcome
-    message_box "Ultimate Crypto-Server Setup Installer" \
-    "Hello and thanks for using the Ultimate Crypto-Server Setup Installer!
+    message_box "Afiniel YiiMP Server installer" \
+    "Hello and thanks for using the Afiniel YiiMP Server installer!
     \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
     \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
   	source existing_user.sh
@@ -98,14 +98,14 @@ clear
 	echo
 	echo "-----------------------------------------------"
 	echo
-	echo Thank you for using the Ultimate Crypto-Server Setup Installer!
+	echo Thank you for using Afiniel YiiMP Installer!
 	echo
 	echo To run this installer anytime simply type, multipool!
 	echo Donations for continued support of this script are welcomed at:
 	echo
-	echo BTC 3DvcaPT3Kio8Hgyw4ZA9y1feNnKZjH7Y21
-	echo BCH qrf2fhk2pfka5k649826z4683tuqehaq2sc65nfz3e
-	echo ETH 0x6A047e5410f433FDBF32D7fb118B6246E3b7C136
-	echo LTC MLS5pfgb7QMqBm3pmBvuJ7eRCRgwLV25Nz
+	echo BTC bc1q338jnjdl6dky7ka88ln8qmcekal48uw072n9v9
+	echo BCH qzz0aff2k0xnwyzg7k9fcxlndtaj4wa65uxteqe84m
+	echo ETH 0x50C7d0BF9714dBEcDc1aa6Ab0E72af8e6Ce3b0aB
+	echo DOGE DB19Mng6zs43doRbD6q2x1hNFeZmK4MVsh
 	cd ~
 fi

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #####################################################
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox
-# Updated by cryptopool.builders for crypto use...
+# Updated by Afiniel for crypto use...
 #####################################################
 
 source /etc/functions.sh
