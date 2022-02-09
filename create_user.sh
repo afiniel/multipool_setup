@@ -10,11 +10,11 @@ clear
 
 # Welcome
 message_box "Afiniel Yiimp installer" \
-"Hello and thanks for using the Afiniel YiiMP Server installer!
+"Hello and thanks for using the Afiniel YiiMP installer!
 \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
 \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
 # Root warning message box
-message_box "Afiniel YiiMP Server installer" \
+message_box "Afiniel YiiMP installer" \
 "Naughty, naughty! You are trying to install this as the root user!
 \n\nRunning any application as root is a serious security risk.
 \n\nTherefore we make you create a user account :)"

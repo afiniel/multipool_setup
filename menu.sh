@@ -6,10 +6,10 @@
 source /etc/functions.sh
 
 RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Afiniel Yiimp installer" --menu "Choose one" -1 60 16 \
-' ' "- YiiMP installer -" \
-1 "YiiMP" \
+' ' "- Install YiiMP -" \
+1 "Install" \
 ' ' "- Upgrade Yiimp -" \
-2 "YiiMP Stratum Upgrade" \
+2 "Upgrade" \
 ' ' "- Daemon Wallet Builder -" \
 3 "Daemonbuilder" \
 4 Exit)
