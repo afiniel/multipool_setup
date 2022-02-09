@@ -15,7 +15,7 @@ if [ $TOTAL_PHYSICAL_MEM -lt 1436000 ]; then
   if [ ! -d /vagrant ]; then
     TOTAL_PHYSICAL_MEM=$(expr \( \( $TOTAL_PHYSICAL_MEM \* 1024 \) / 1000 \) / 1000)
     echo "Your Crypto-Pool Server needs more memory (RAM) to function properly."
-    echo "Please provision a machine with at least 1536 GB, 6 GB recommended."
+    echo "Please provision a machine with at least 8 GB is recommended."
     echo "This machine has $TOTAL_PHYSICAL_MEM MB memory."
     exit
   fi
